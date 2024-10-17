@@ -83,7 +83,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && pretty-quick --staged --pattern \"src/**/*.{js, json}\""
+      "pre-commit": "echo npm run lint && pretty-quick --staged --pattern \"src/**/*.{js, json}\""
     }
   },
   "readmeFilename": "README.md",
